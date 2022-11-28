@@ -12,7 +12,7 @@ class TestCryptage(unittest.TestCase):
         self.res4 = crypt_string('bonjour', 'feu')
     
     def test_res1_1(self):
-        self.assertGreater(len(self.res1_1), 0)
+        self.assertGreater(len(self.res1_2), 0)
     
     def test_res1_2(self):
         self.assertTrue(len(self.res1_2) == 0)
